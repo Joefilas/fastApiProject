@@ -11,8 +11,8 @@ This is a simple chatbot and stock price checker application built with FastAPI.
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/yourproject.git
-    cd yourproject
+    git clone https://github.com/Joefilas/fastApiProject.git
+    cd fastApiProject
     ```
 
 2. **Create a virtual environment**:
