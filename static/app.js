@@ -12,9 +12,8 @@ if (stockFormElement) {
             var xhr = new XMLHttpRequest();
             xhr.open('GET', '/stock_price?ticker=' + ticker, true);
             xhr.onreadystatechange = function() {
+                var response = JSON.parse(xhr.responseText);
                 if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-                    // Displays only value and not pair
-                    var response = JSON.parse(xhr.responseText);
                     // If the request is successful, update the tickerResponse div with the response
                     document.getElementById('tickerResponse').innerText = `Price of ${response.stock_name}: $${response.price}`;
                 } else{
