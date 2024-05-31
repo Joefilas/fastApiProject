@@ -32,7 +32,7 @@ This is a simple chatbot and stock price checker application built with FastAPI.
     OPENAI_API_KEY=your-openai-api-key
     ALPHA_VANTAGE_API_KEY=your-alphavantage-api-key
     ```
-   You can view or generate an OpenAI ChatGPT API key from `https://platform.openai.com/api-keys` by logging in to our OpenAI account.
+   You can view or generate an OpenAI ChatGPT API key from `https://platform.openai.com/api-keys` by logging into your OpenAI account.
    <br>
    <br>
    You can generate a free Alpha Vantage API key from `https://www.alphavantage.co/support/#api-key`.
